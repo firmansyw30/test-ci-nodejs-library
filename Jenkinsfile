@@ -1,6 +1,9 @@
 pipeline {
     agent any
-
+    tools {
+        // nodejs installation name must be same as configured in Jenkins
+        nodejs 'nodejs22' 
+    }
     stages {
         // stage('Checkout') {
         //     steps {
