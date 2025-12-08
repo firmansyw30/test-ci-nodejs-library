@@ -1,0 +1,23 @@
+{
+  "name": "test-ci-nodejs-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firmansyw30/test-ci-nodejs-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firmansyw30/test-ci-nodejs-library/issues"
+  },
+  "homepage": "https://github.com/firmansyw30/test-ci-nodejs-library#readme",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
