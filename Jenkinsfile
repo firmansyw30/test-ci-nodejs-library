@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub repository
-                git branch: 'main', url: 'https://github.com/<username>/nodejs-dependency-demo.git'
+                git branch: 'main', url: 'https://github.com/firmansyw30/test-ci-nodejs-library.git'
             }
         }
 
