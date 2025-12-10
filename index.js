@@ -1,3 +1,5 @@
-const _ = require('lodash');
+import _ from 'lodash';
+import chalk from 'chalk';
 
-console.log(_.capitalize("hello world"));
+const capitalizedText = _.capitalize("hello world");
+console.log(chalk.blue(capitalizedText));

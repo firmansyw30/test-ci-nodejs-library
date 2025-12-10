@@ -1,5 +1,6 @@
 {
   "name": "test-ci-nodejs-library",
+  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/firmansyw30/test-ci-nodejs-library#readme",
   "description": "",
   "dependencies": {
+    "chalk": "^5.6.0",
     "lodash": "^4.17.21"
   }
 }
